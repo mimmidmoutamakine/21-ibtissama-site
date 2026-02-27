@@ -117,6 +117,13 @@ body {
   color: var(--text-soft);
 }
 
+.logo-wrapper .logo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+}
 /* NAV */
 .nav {
   display: flex;
