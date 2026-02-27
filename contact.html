@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>اتصل بنا – جمعية 21 ابتسامة</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo-wrapper">
+        <img src="images/logo-21-ibtissama.png" alt="شعار جمعية 21 ابتسامة" class="logo-img" />
+        <div class="logo-text">
+          <span class="logo-title">جمعية 21 ابتسامة</span>
+          <span class="logo-subtitle">للأطفال في وضعية إعاقة</span>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="about.html">عن الجمعية</a></li>
+          <li><a href="programs.html">برامجنا</a></li>
+          <li><a href="impact.html">أثرنا</a></li>
+          <li><a href="team.html">فريق العمل</a></li>
+          <li><a href="news.html">الأخبار والأنشطة</a></li>
+          <li><a href="contact.html" class="nav-cta">اتصل بنا</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="القائمة">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- INTRO -->
+    <section class="section section-alt">
+      <div class="container">
+        <h1 class="section-title">اتصل بنا</h1>
+        <p style="color:#60657a; line-height:1.9; max-width:760px;">
+          يسعدنا تواصلكم، سواء كنتم أسرًا تبحث عن مرافقة لأطفالها، أو مختصّين
+          راغبين في التعاون، أو مؤسسات مهتمّة بعقد شراكة، أو متطوّعين
+          يودّون منح جزء من وقتهم لصالح الأطفال.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT GRID -->
+    <section class="section">
+      <div class="container grid-2">
+        <div class="section-content" data-reveal="fade-up">
+          <h2 class="section-title">معلومات الاتصال</h2>
+          <ul class="contact-list">
+            <li><strong>العنوان:</strong> المحمدية – المغرب (يُحدد العنوان الكامل هنا)</li>
+            <li><strong>الهاتف:</strong> 06 XX XX XX XX</li>
+            <li><strong>البريد الإلكتروني:</strong> info@21ibtissama.ma</li>
+          </ul>
+          <p class="contact-note">
+            يُفضَّل الاتصال الهاتفي خلال أوقات العمل الرسمية فقط، مع إمكانية
+            ترك رسالة نصية أو بريد إلكتروني خارج هذه الأوقات.
+          </p>
+
+          <h3 style="margin-top:18px;">لمن هذا النموذج؟</h3>
+          <ul class="check-list">
+            <li>أسر ترغب في تسجيل أطفالها أو طلب موعد للتعرّف على الجمعية</li>
+            <li>مختصّون يرغبون في تقديم خدمات أو تكوينات</li>
+            <li>مؤسسات مهتمّة بالشراكة أو الدعم</li>
+            <li>متطوّعون يودّون الانخراط في أنشطة الجمعية</li>
+          </ul>
+        </div>
+
+        <div class="section-box contact-box" data-reveal="fade-left">
+          <h3>أرسل لنا رسالة</h3>
+          <!-- يمكن تغيير mailto لاحقًا -->
+          <form class="contact-form" action="mailto:info@21ibtissama.ma" method="post" enctype="text/plain">
+            <div class="form-group">
+              <label for="name">الاسم الكامل</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">البريد الإلكتروني</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">موضوع الرسالة</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">نص الرسالة</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn primary full-width">إرسال</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- OPTIONAL MAP / FAQ -->
+    <section class="section section-alt">
+      <div class="container grid-2">
+        <div class="section-content" data-reveal="fade-up">
+          <h2 class="section-title">أسئلة متكررة</h2>
+          <p style="color:#60657a;">
+            هذه أمثلة لأسئلة يمكن أن تطرحها الأسر؛ يمكن تعديلها لاحقًا حسب الواقع:
+          </p>
+          <ul class="check-list">
+            <li>ما هي شروط الاستفادة من خدمات الجمعية؟</li>
+            <li>هل البرامج مؤدّاة أم مجانية؟ وهل توجد صيغ دعم للأسر المعوزة؟</li>
+            <li>كيف يتمّ تحديد نوع الحصص وعددها لكل طفل؟</li>
+            <li>هل يمكن للطفل الاستمرار في المدرسة بالتوازي مع أنشطة الجمعية؟</li>
+          </ul>
+        </div>
+
+        <div class="section-box" data-reveal="fade-left">
+          <h3>مكان الجمعية</h3>
+          <p style="color:#60657a;">
+            يمكن لاحقًا إدراج خريطة تفاعلية (Google Maps) توضّح موقع الجمعية
+            بالضبط، لمساعدة الأسر والمتطوّعين على إيجاد المكان بسهولة.
+          </p>
+          <!-- مثال لكود خريطة يمكن تفعيله لاحقًا:
+          <div style="margin-top:10px; border-radius:16px; overflow:hidden;">
+            <iframe src="MAP_URL_HERE"
+                    width="100%" height="240" style="border:0;" allowfullscreen=""
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> جمعية 21 ابتسامة. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
